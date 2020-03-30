@@ -1,0 +1,29 @@
+.event-item
+{
+    -webkit-box-flex: 0;
+    flex: 0 0 100px;   
+    background-color: #181d31;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 0.6rem;
+    &__date
+    {
+        margin-bottom: 0.6rem;
+        font-size: 4rem;
+        font-weight: 700;
+        display: block;
+        line-height: 1em;
+        background-color: #00a8ff;
+        padding: 1.5rem 0;
+        font-family: "Roboto", sans-serif;
+    }
+    &--lg
+    {
+        width: 10rem;
+    }
+    &--sm
+    {
+        width: 8rem;
+    }
+}

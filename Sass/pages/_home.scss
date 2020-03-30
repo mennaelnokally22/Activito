@@ -1,0 +1,405 @@
+.intro-sec
+{
+    position: relative;
+    height: 800px;
+    background-image: url('../images/bg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__content
+    {
+       color:white;
+       position: absolute;    
+       top:50%;
+       transform: translateY(-50%);
+       font-size: 2rem;
+    }
+    &__title
+    {
+        font-weight:900;
+        font-size: 55px;
+        margin-bottom: 5rem;
+    }
+    &__info
+    {
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+    }
+    &__btn
+    {
+        margin-right: 4rem;
+    }
+}
+.intro-sec::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba($color: #000000, $alpha: 0.6);
+}
+
+.sub-sec
+{
+    color:$secondary-color;
+    background-color: $primary-color;
+    padding: 3rem ;
+    &__content
+    {
+        padding:2rem;
+        display:flex;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+    &__title
+    {
+        font-size: 3.6rem;
+    }   
+}
+.sports-sec
+{
+    padding:12rem 0;
+    &__content
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+    &__card
+    {
+        margin-bottom: 3rem;
+    }
+    &__overlay
+    {
+        overflow: hidden;
+    }
+    &__info
+    {
+        margin-bottom: 5rem;
+    }
+}
+
+.features-sec
+{
+    padding:12rem 0;
+    background-color: #EFF2F7;
+    position: relative;
+    overflow: hidden;
+    &__img
+    {
+        position: absolute;
+        bottom: -8%;
+        left:53%;
+        transform: translateX(-50%);
+    }
+    &__content
+    {
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+    }
+}
+
+.discount-sec
+{
+    display:flex;
+    background-color: #181D31;
+    position: relative;
+    &__content
+    {
+        padding: 10rem 6rem;
+    }
+    &__image
+    {
+        height:100%;
+        background-image: url('../images/5.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        overflow: hidden;
+    }
+    &__title
+    {
+        font-size: 60px;
+        color: white;
+       line-height: 1.2em;
+       margin-bottom: 3.5rem;
+
+    }
+    &__txt
+    {
+        color: #C6C8CD;
+        opacity: 0.8;
+        margin-bottom: 4rem;
+    }
+}
+
+.instructors-sec
+{
+    padding: 12rem 0;
+    background-color: $secondary-color;
+    &__info
+    {
+        margin-bottom: 5rem;
+    }
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__icons
+    {
+        margin-right: -6rem;
+    }
+}
+
+.events-sec
+{
+    background-color: #EFF2F7;
+    padding: 12rem 0;
+    &__info
+    {
+        margin-bottom: 5rem;
+    }
+    &__content
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card
+    {
+        margin-bottom: 2rem;
+    }
+    &__icon
+    {
+        color: $primary-color;
+    }
+}
+
+.clients-sec
+{
+    padding: 12rem 0;
+    &__info
+    {
+        margin-bottom: 5rem;
+    }
+    &__content
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__name
+    {
+        color:#181D31;
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+}
+
+.numbers-sec
+{
+    background-size: cover;
+    background-position: bottom;
+    background-image: linear-gradient(to bottom, rgba(0, 246, 252, 0.52), rgba(0, 168, 255,0.8)),
+    url('../images/fanfact-bg.jpg');
+    &__data
+    {
+        padding: 12rem 0;
+    }
+    &__title
+    {
+        color:$secondary-color;
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    &__info
+    {
+        color:$secondary-color;   
+    }
+    &__desc
+    {
+        padding-bottom: 6rem;
+    }
+    &__content
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
+
+.latest-news
+{
+    background-color: #EFF2F7;
+    padding: 12rem 0;
+    &__info
+    {
+        margin-bottom: 5rem;
+    }
+    &__content
+    {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__card
+    {
+        overflow: hidden;
+        position: relative;
+    }
+    &__date
+    {
+        position: absolute;
+        z-index:2;
+        top:0;
+        left:0;
+    }
+
+}
+
+.works-sec
+{
+  padding: 12rem 0;
+  &__info
+  {
+    margin-bottom: 5rem;
+  }
+  &__content
+  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &__card
+  {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+  }
+}
+
+.emps-sec
+{
+    background-color: #EFF2F7;
+    padding: 12rem 0;
+  &__info
+  {
+    margin-bottom: 5rem;
+  }
+  &__content
+  {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  &__icons
+  {
+      margin-right: -2rem;
+  }
+}
+
+.footer
+{
+    padding: 12rem 0;
+    background-size: cover;
+    background-position: bottom;
+    background-image: linear-gradient(to bottom, rgba(9, 25, 55, 0.95), rgba(9, 25, 55,0.95)),
+    url('../images/fanfact-bg.jpg');
+    &__content
+    {
+        display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+    }
+    &__heading
+    {
+        margin-bottom: 1.5rem;
+    }
+    &__bottom
+    {
+        padding: 2.5rem 0;
+        position: relative;
+    }
+
+    &__data
+    {
+        position: absolute;
+        top:145%;
+        left:0;
+    }
+    &__menu
+    {
+        position: absolute;
+       top: 145%;
+       right: 0;
+    }
+    &__item
+    {
+        padding: 2rem;
+    }
+}
+
+.footer__bottom::before
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    top:130%;
+    left: 0;
+}
+
+.top-btn
+{
+    background-color: #00a8ff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+
+}
+
+.w
+{
+    width: 25%;
+    @media (max-width:$tab)
+    {
+        width: 50%;
+    }
+    @media(max-width:$mob)
+    {
+        width:100%;
+    }
+}
+.icon
+{
+    display: none;
+    @media (max-width:$tab)
+    {
+        display: block;
+        font-size: 3rem;
+    }
+    @media (max-width:$mob)
+    {
+        display: block;
+        font-size: 3rem;
+    }
+}
+.nav-menu
+{
+    position: absolute;
+    width: 50%;
+    display: block;
+    right: 3px;
+    z-index: 3;
+    background-color: white;
+    top: 158px;
+}

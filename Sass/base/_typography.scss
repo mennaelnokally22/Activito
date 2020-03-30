@@ -1,0 +1,27 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    @media(max-width: $tab)
+    {
+        font-size: 56.25%;
+    }
+    @media(max-width: $mob)
+    {
+        font-size: 37.5%;
+    }
+
+}
+
+body{
+    font-size: 1.6rem;
+    font-weight: normal;
+    line-height: 1.5em;
+    color: #777777;
+    margin: 0;
+}
+
+.container
+{
+    max-width:1180px;
+    margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+.footer-menu
+{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0px;
+    text-align: right;
+    &__item
+    {
+        cursor: pointer;
+        color: #c6c8cd;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        display: inline-block;
+        position: relative;
+        transition: all 0.5s ease-in-out;
+        &:hover
+        {
+            color: $primary-color;
+        }
+    }
+
+}
+
+.footer-menu__item::before
+{
+    content: "|";
+    position: absolute;
+    width: 2px;
+}

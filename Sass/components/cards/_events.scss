@@ -1,0 +1,32 @@
+.event
+{
+    background-color: white;
+    display: flex;
+    padding: 3rem;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 43px rgba(69, 69, 69, 0.2);
+    &__title
+    {
+        font-size: 2.4rem;
+        margin-top: 0;
+        color: #081636;
+        font-weight: 700;
+        transition: color 0.5s ease-in-out;
+        cursor: pointer;
+        &:hover{
+            color:$primary-color;
+        }
+    }
+    &__data
+    {
+        padding-left: 7rem;
+    }
+    &__description
+    {
+        line-height: 1.8rem;
+        color:#777777;
+    }
+    &:hover{
+        box-shadow: 0px 0px 55px rgba(69, 69, 69, 0.4);
+    }
+}

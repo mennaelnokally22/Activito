@@ -1,0 +1,28 @@
+.feature-card
+{
+    text-align: center;
+    margin-bottom: 7.5rem;
+    padding: 0 3.5rem;
+    width:100%;
+    transition: all 0.5s ease;
+
+    &__title
+    {
+        color: #081636;
+        font-size: 2.4rem;
+        margin-bottom: 1.2rem;
+    }
+    &__icon
+    {
+        box-shadow: 1px 23px 27px rgba(42, 57, 145, 0.05);
+    }
+    &:hover
+    {  
+        .feature-card__icon
+        {
+        background-color: $primary-color;
+        color: $secondary-color;
+        transform: scale(1.1); 
+        }     
+    }
+}

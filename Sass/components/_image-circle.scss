@@ -1,0 +1,22 @@
+.img-circle
+{
+    @include circle(18rem,18rem);
+    border:2px solid $trans-color;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    &:hover
+    {
+        border:2px solid $primary-color;
+        box-shadow: 0 0 15px $primary-color;
+        animation: push 0.8s linear 1;
+    }
+   &--lg
+   {
+       width:22rem;
+       height: 22rem;
+   }
+}
+
+@keyframes push{
+    80% {transform: scale(1.3);}
+    80% {opacity: 0.8;}
+   }

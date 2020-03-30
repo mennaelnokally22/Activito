@@ -1,0 +1,58 @@
+.btn
+{
+    color: $secondary-color;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: all 0.5s ease-out;
+    &--primary
+    {
+        @include btnColored(#0069d9,$primary-color,$primary-color);
+
+        &:hover
+        {
+            background-position: left bottom;
+            border-color: #0069d9;
+            cursor: pointer;
+        }
+    }
+    &--white
+    {
+        @include btnColored($secondary-color,$trans-color,$secondary-color);
+
+        &:hover
+        {
+            background-position: left bottom;
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+    &--gray
+    {
+        color: #777777;
+        @include btnColored(#e5e5e5,$trans-color,$secondary-color);
+        border-color: #e5e5e5;
+        &:hover
+        {
+            background-position: left bottom;
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+    &--square
+    {
+        position: fixed;
+        right: 0;
+        bottom:0;
+       text-align: center;
+       z-index: 999;
+       font-size: 20px;
+       border-radius: 5px;
+      background-color: #00a8ff;
+    }  
+}
+

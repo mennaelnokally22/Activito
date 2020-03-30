@@ -1,0 +1,26 @@
+.dropdown
+{
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    &__content
+    {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: none;
+        position: absolute;
+        top:106%;
+        background-color: white;
+        min-width: 16rem;
+        width:max-content;
+        box-shadow: 0rem 0.8rem 1,6rem 0rem rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    &:hover
+    {
+        cursor: pointer;
+        .dropdown__content
+        {
+            display:block;
+        }
+    }
+}

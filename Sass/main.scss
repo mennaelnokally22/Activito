@@ -1,0 +1,31 @@
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+@import "base/typography";
+@import "base/reset";
+
+@import "components/buttons";
+@import "components/circles";
+@import "components/list";
+@import "components/promo-card";
+@import "components/event";
+@import "components/cards/instructors-card";
+@import "components/cards/latest-news";
+@import "components/cards/events";
+@import "components/cards/services-card";
+@import "components/cards/emps-card";
+@import "components/cards/features-card.scss";
+@import "components/navbar-items";
+@import "components/dropdown/dropdown-list";
+@import "components/dropdown/dropdown-item";
+@import "components/titles";
+@import "components/image-circle";
+@import "components/social-icons";
+@import "components/widths";
+@import "components/text-center";
+@import "components/footer-list";
+@import "layout/navbar";
+@import "layout/top-header";
+
+@import "pages/home";

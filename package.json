@@ -1,0 +1,15 @@
+{
+  "name": "activito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" :"node-sass Sass/main.scss Css/style.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

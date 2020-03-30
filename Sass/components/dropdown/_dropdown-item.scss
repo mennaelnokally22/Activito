@@ -1,0 +1,17 @@
+.dropdown-item
+{
+    color: #081636;
+    padding: 0.3rem 1.5rem;
+    transition: padding 0.25s ease;
+    &:hover{
+        padding-left:0.4rem;
+        color:$primary-color;
+    }
+}
+.dropdown-item:not(:last-child)
+{
+    border-bottom-width:thin;
+    border-bottom:1px solid rgb(153, 149, 149);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}

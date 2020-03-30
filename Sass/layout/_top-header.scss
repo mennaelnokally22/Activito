@@ -1,0 +1,42 @@
+.top-header
+{
+    background-color: #F7F7F7;
+
+    &__content
+    {
+
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    &__right
+    {
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__left
+      {
+        background-color: $primary-color;
+        color:$secondary-color;
+        font-weight: 700;
+        font-size:2.4rem;
+        padding: 2rem;
+        margin: 0;
+      }
+    &__icons
+    {
+      padding: 0 15px;
+    }
+    &__menu
+    {
+      border: none;
+      background-color: #F7F7F7;
+    }
+}
+
+
